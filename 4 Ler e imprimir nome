@@ -4,5 +4,5 @@ nome:caractere
 inicio
 escreval("Digite seu nome:")
 leia(nome)
-escreval("Olá", nome, "Tenha um ótimo dia")
+escreval("Olá ", nome, ", tenha um ótimo dia")
 fimalgoritmo
