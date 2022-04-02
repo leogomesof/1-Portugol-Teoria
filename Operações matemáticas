@@ -7,4 +7,8 @@ leia(a)
 escreval("Digite um valor para B")
 leia(b)
 escreval("O resultado é:", A+B)
+escreval("O resultado é:", A-B)
+escreval("O resultado é:", A*B)
+escreval("O resultado é:", A/B)
+escreval("O resto da divisão é:", A MOD B)
 Fimalgoritmo
