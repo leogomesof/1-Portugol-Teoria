@@ -19,7 +19,7 @@ leia(cg)
 //condições
 notas <- pt + mt + cg
 media <- notas / 3
-se (pt = 4) ou (mt = 4) ou (cg = 4) entao
+se (pt <= 4) ou (mt <= 4) ou (cg <= 4) entao
  escreval(nome, " está reprovado")
  escreval("Nota em Português: ", pt)
  escreval("Nota em Matemática:", mt)
