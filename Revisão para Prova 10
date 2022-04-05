@@ -1,12 +1,8 @@
 Algoritmo "Exercício 10"
-//Efetuar a leitura de três valores inteiros desconhecidos representados
-//pelas variáveis A, B e C. Somar os valores fornecidos e apresentar o
-//resultado somente se for maior ou igual a 100.
 Var
 a,b,c:inteiro
 r:inteiro //resultado
 d:inteiro //travar o enquanto
-
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 d<-1
