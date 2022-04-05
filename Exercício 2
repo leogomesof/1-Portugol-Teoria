@@ -1,4 +1,4 @@
-Algoritmo "Exercício 2"
+Algoritmo "Se tirar 4 em qualquer matéria, reprovado. Acima de 5 aprovado."
 Var
 nome:caractere
 pt:inteiro
@@ -6,16 +6,15 @@ mt:inteiro
 cg:inteiro
 media:real
 notas:inteiro
+a:inteiro
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+a<-1
+enquanto (a=1) faca
 escreval("Digite o nome: ")
 leia(nome)
-escreval("digite a nota em português: ")
-leia(pt)
-escreval("digite a nota em matemática: ")
-leia(mt)
-escreval("digite a nota em conhecimentos gerais: ")
-leia(cg)
+escreval("digite a nota em português, matemática e conhecimentos gerais: ")
+leia(pt,mt,cg)
 //condições
 notas <- pt + mt + cg
 media <- notas / 3
@@ -34,4 +33,5 @@ senao
    escreval("Média: ", media)
  fimse
 fimse
+fimenquanto
  Fimalgoritmo
