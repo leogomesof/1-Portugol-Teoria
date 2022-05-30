@@ -1,19 +1,23 @@
 Algoritmo "Revisão 10"
 Var
-a,b,c:inteiro
-r:inteiro //resultado
-d:inteiro //travar o enquanto
+nome:caractere
+sexo:caractere
+a:inteiro //segurar o enquanto
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-d<-1
-enquanto (d=1) faca
-escreval("Escreva os valores para A, B e C: ")
-leia(a,b,c)
-r<-a+b+c
-se (r>=100) entao
-escreval(r, " é maior que 100")
- senao
- escreval(r, " não é maior que 100")
+a<-1
+enquanto (a=0) faca
+escreval("Informe o sexo: (M ou F)")
+leia(sexo)
+se (sexo = "M") entao
+ escreval ("Sexo válido: Masculino")
+ escreval("Olá Ilmo, Sr.")
+fimse
+se (sexo="F") entao
+ escreval("Sexo válido: Feminino")
+ escreval("Olá Ilma, Sra.")
+fimse
+se (sexo <> "M" ou "F") entao
+ escreval("Sexo inválido")
 fimse
 fimenquanto
 Fimalgoritmo
